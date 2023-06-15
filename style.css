@@ -1,0 +1,31 @@
+/* #section1 {
+  background-color: #f6f6f6;
+}
+
+#section2 {
+  background-color: #f6f6f6;
+}
+#section3 {
+  background-color: #f6f6f6;
+} */
+.slide {
+  background-size: cover;
+  background-position: center;
+}
+#slide1 {
+  background-image: url(http://sites.psu.edu/siowfa15/wp-content/uploads/sites/29639/2015/10/cat.jpg);
+}
+/* #section4 {
+  background-color: #f6f6f6;
+} */
+#fp-nav ul li a span {
+  background-color: #D0E8EC;
+}
+
+.fp-slidesNav ul li a span {
+  background-color: #fff;
+}
+
+.fp-tableCell {
+  vertical-align: text-top;
+}
