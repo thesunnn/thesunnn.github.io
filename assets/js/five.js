@@ -43,7 +43,7 @@ function calculateElement() {
         elementName = "흙";
       description = "꼼꼼하고 실용적이며 안정감 있는 사람,<br>노력과 인내력이 강한 성격입니다. ";
       imageSrc = "assets/image/sand.png"
-      pageUrl = "card/tree.html";
+      pageUrl = "assets/card/sand.html";
       break;
     case 1:
     case 6:
@@ -51,14 +51,14 @@ function calculateElement() {
       elementName = "금";
       description = "규칙적이고 참을성 있으며,<br>믿음직스러운 인물입니다.";
       imageSrc = "assets/image/gold.png";
-      pageUrl = "gold.html";
+      pageUrl = "assets/card/gold.html";
       break;
     case 2:
     case 7:
         elementName = "물";
       description = "예민하고 직감적인 사람,영감적이고 상상력이 풍부하며,<br>재치가 있으며 융통성이 있습니다.";
       imageSrc = "assets/image/water.png";
-      pageUrl = "water.html";
+      pageUrl = "assets/card/water.html";
       break;
     case 3:
     case 8:
@@ -73,7 +73,7 @@ function calculateElement() {
         elementName = "불";
       description = "열정적이고 자신감이 높으며,<br>적극적인 태도를 가지고 있습니다.";
       imageSrc = "assets/image/fire.png";
-      pageUrl = "fire.html";
+      pageUrl = "assets/card/fire.html";
       break;
   }
 

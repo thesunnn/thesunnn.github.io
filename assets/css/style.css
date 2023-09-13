@@ -58,8 +58,10 @@ body {
 
 /*--header--*/
 .header {
-  min-height: 100vh;
+  min-height: 110vh;
   width: 100%;
+  overflow-x: hidden;
+
 }
 
 /*--nav--*/
@@ -181,7 +183,7 @@ main {
 .text-box {
   width: 100%;
   position: absolute;
-  top: 54%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
