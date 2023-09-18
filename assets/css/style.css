@@ -56,12 +56,30 @@ body {
   /* background-color: #f6f6f6; */
 }
 
+
+.bg-video {
+  /* background-color: #ffffff; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  /* background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동) */
+  
+}
+
+
 /*--header--*/
 .header {
-  min-height: 110vh;
+  min-height: 100vh;
   width: 100%;
-  overflow-x: hidden;
-
 }
 
 /*--nav--*/
@@ -138,7 +156,7 @@ main {
 }
 
 .text-box img{
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   width: 100%;
 }
 
@@ -183,7 +201,7 @@ main {
 .text-box {
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -205,12 +223,12 @@ main {
   cursor: grab;
   font-family: "NixgonFonts";
   font-weight: 300;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
-  color: rgba(65, 80, 79, 0.744);
+  color: rgba(65, 80, 79, 0.631);
 }
 .word.highlighted {
-  font-weight: 500;
+  font-weight: 100;
   color: #71bbb0;
 }
 

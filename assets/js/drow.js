@@ -5,7 +5,7 @@ const splitWords = () => {
     const highlighted =
       text.startsWith(`오행`) ||
       text.startsWith(`연구소에`) ||
-      text.startsWith(`김박사의`);
+      text.startsWith(`김박사입니다`);
     return `<span class="word ${
       highlighted ? "highlighted" : null
     }">${text}</span>`;
